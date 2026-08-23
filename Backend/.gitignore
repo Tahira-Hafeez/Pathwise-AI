@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+.env
+.vscode/
+.idea/
+*.log
+.env
+RAG/key.env
+data/chroma_store/
+__pycache__/
+*.pyc
+venv/

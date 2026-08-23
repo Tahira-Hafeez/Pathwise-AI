@@ -1,0 +1,53 @@
+[33mcommit 358fd6468dd8fddd00669dec9cceb13d4baac0ba[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32matiqa-rag[m[33m)[m
+Author: atiqajabeen <aatiqajabeen05@gmail.com>
+Date:   Sun Aug 23 00:17:42 2026 -0700
+
+    Milestone 1: RAG pipeline for skill-gap analysis and roadmap generation
+
+ .env                                               |    1 [32m+[m
+ .gitignore                                         |    1 [32m+[m
+ Backend/.gitignore                                 |   13 [32m+[m
+ Backend/README.md.txt                              |    1 [32m+[m
+ Backend/auth.py                                    |   30 [32m+[m
+ Backend/database.py                                |   23 [32m+[m
+ Backend/main.py                                    |   20 [32m+[m
+ Backend/models.py                                  |   10 [32m+[m
+ Backend/routes/__init__.py                         |    0
+ Backend/routes/profile.py                          |   20 [32m+[m
+ Backend/routes/roadmap.py                          |   27 [32m+[m
+ Backend/routes/users.py                            |   34 [32m+[m
+ Backend/schemas.py                                 |   18 [32m+[m
+ Frontend/.gitignore                                |   24 [32m+[m
+ Frontend/README.md                                 |   16 [32m+[m
+ Frontend/README.md.txt                             |    1 [32m+[m
+ Frontend/eslint.config.js                          |   21 [32m+[m
+ Frontend/index.html                                |   13 [32m+[m
+ Frontend/package-lock.json                         | 2365 [32m++++++++++++++++++++[m
+ Frontend/package.json                              |   27 [32m+[m
+ Frontend/public/favicon.svg                        |    1 [32m+[m
+ Frontend/public/icons.svg                          |   24 [32m+[m
+ Frontend/src/App.css                               |  184 [32m++[m
+ Frontend/src/App.jsx                               |  122 [32m+[m
+ Frontend/src/assets/hero.png                       |  Bin [31m0[m -> [32m13057[m bytes
+ Frontend/src/assets/react.svg                      |    1 [32m+[m
+ Frontend/src/assets/vite.svg                       |    1 [32m+[m
+ Frontend/src/index.css                             |  111 [32m+[m
+ Frontend/src/main.jsx                              |   10 [32m+[m
+ Frontend/vite.config.js                            |    7 [32m+[m
+ RAG/PathWise_AI_Knowledge_Base_milestone1.xlsx     |  Bin [31m0[m -> [32m16864[m bytes
+ RAG/README.md.txt                                  |    0
+ README.md                                          |   45 [32m+[m
+ __pycache__/retrieve.cpython-314.pyc               |  Bin [31m0[m -> [32m3924[m bytes
+ data/PathWise_AI_Knowledge_Base_milestone1.xlsx    |  Bin [31m0[m -> [32m16864[m bytes
+ .../data_level0.bin                                |  Bin [31m0[m -> [32m167600[m bytes
+ .../header.bin                                     |  Bin [31m0[m -> [32m100[m bytes
+ .../length.bin                                     |  Bin [31m0[m -> [32m400[m bytes
+ .../link_lists.bin                                 |    0
+ data/chroma_store/chroma.sqlite3                   |  Bin [31m0[m -> [32m327680[m bytes
+ data/skills.json                                   |  164 [32m++[m
+ data_prep.py                                       |   54 [32m+[m
+ embed.py                                           |   63 [32m+[m
+ generate.py                                        |   60 [32m+[m
+ requirements.txt                                   |    5 [32m+[m
+ retrieve.py                                        |   63 [32m+[m
+ 46 files changed, 3580 insertions(+)
