@@ -3,9 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from routes import users, profile, roadmap
 
-
 app = FastAPI(title="PathWise AI Backend")
-
 
 app.add_middleware(
     CORSMiddleware,
@@ -14,11 +12,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-
 app.include_router(users.router, tags=["Users"])
 app.include_router(profile.router, tags=["Profile"])
 app.include_router(roadmap.router, tags=["Roadmap"])
-
 
 @app.get("/")
 def root():

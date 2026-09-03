@@ -1,0 +1,164 @@
+[
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-01",
+    "skill": "Python Programming (core + OOP)",
+    "prerequisites": "None",
+    "why_it_matters": "Required in 71% of AI engineer postings — the baseline language for nearly every AI tool and framework.",
+    "resource": "freeCodeCamp — 'Python for Everybody' (free, YouTube/freeCodeCamp.org)",
+    "est_time": "3–4 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-02",
+    "skill": "SQL & Data Handling",
+    "prerequisites": "AI-01 (basic Python helps but not required)",
+    "why_it_matters": "17% of postings require SQL for querying and managing training/production data.",
+    "resource": "Mode Analytics 'SQL Tutorial' (free) or Khan Academy SQL basics",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-03",
+    "skill": "Statistics & Linear Algebra Foundations",
+    "prerequisites": "None",
+    "why_it_matters": "Underpins every ML model — needed to understand embeddings, loss functions, and model behavior.",
+    "resource": "Khan Academy — Statistics & Linear Algebra (free)",
+    "est_time": "3 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-04",
+    "skill": "Machine Learning Fundamentals",
+    "prerequisites": "AI-01, AI-03",
+    "why_it_matters": "Core theory (regression, classification, evaluation metrics) that all applied AI work builds on.",
+    "resource": "Andrew Ng — 'Machine Learning Specialization', Coursera/DeepLearning.AI (free to audit)",
+    "est_time": "5–6 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-05",
+    "skill": "LLM Fundamentals & Prompt Engineering",
+    "prerequisites": "AI-01",
+    "why_it_matters": "Core 2026 hiring signal — postings now prioritize practical LLM/API integration over classic ML theory alone.",
+    "resource": "DeepLearning.AI — 'ChatGPT Prompt Engineering for Developers' (free, short course)",
+    "est_time": "1–2 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-06",
+    "skill": "Embeddings & Vector Databases",
+    "prerequisites": "AI-01, AI-05",
+    "why_it_matters": "Needed for RAG-style applications (e.g., Pinecone, Weaviate) — a top 2026 AI-engineering requirement.",
+    "resource": "DeepLearning.AI — 'Building Applications with Vector Databases' (free short course)",
+    "est_time": "1–2 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-07",
+    "skill": "Working with AI APIs (OpenAI, Hugging Face)",
+    "prerequisites": "AI-05",
+    "why_it_matters": "Directly matches how most 2026 AI-engineer roles actually work — integrating pretrained models, not training from scratch.",
+    "resource": "OpenAI API official documentation + Hugging Face 'NLP Course' (free)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-08",
+    "skill": "Cloud Deployment Basics (AWS or Azure)",
+    "prerequisites": "AI-01",
+    "why_it_matters": "AWS (32.9%) and Azure (26%) dominate AI-engineer postings — deployment skill is now as critical as model knowledge.",
+    "resource": "AWS Skill Builder — 'AWS Cloud Practitioner Essentials' (free)",
+    "est_time": "2–3 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-09",
+    "skill": "MLOps Basics (Docker, model monitoring)",
+    "prerequisites": "AI-07, AI-08",
+    "why_it_matters": "Employers want engineers who can manage end-to-end systems, not just prototype in a notebook.",
+    "resource": "freeCodeCamp — 'Docker for Beginners' (free, YouTube)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "AI Engineer (Entry-Level / Junior)",
+    "skill_id": "AI-10",
+    "skill": "Portfolio Project (RAG chatbot or classifier)",
+    "prerequisites": "AI-06, AI-07",
+    "why_it_matters": "Recruiters weigh a working portfolio heavily, especially for the 97.5% of roles that are not truly entry-level.",
+    "resource": "Self-directed build (e.g., document Q&A bot using OpenAI API)",
+    "est_time": "2–3 weeks"
+  },
+  {
+    "role": "Data Analyst (Entry-Level)",
+    "skill_id": "DA-01",
+    "skill": "Excel (formulas, pivot tables)",
+    "prerequisites": "None",
+    "why_it_matters": "Appears in 81% of data-analytics postings — still the most requested single tool for analysts.",
+    "resource": "Google — 'Foundations: Data, Data, Everywhere' (Coursera, free to audit)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Data Analyst (Entry-Level)",
+    "skill_id": "DA-02",
+    "skill": "SQL (joins, aggregations, CTEs)",
+    "prerequisites": "None",
+    "why_it_matters": "Requested in 60–80% of postings; considered a hard filter — weak SQL often means automatic rejection.",
+    "resource": "Mode Analytics SQL Tutorial (free) + Khan Academy SQL",
+    "est_time": "3 weeks"
+  },
+  {
+    "role": "Data Analyst (Entry-Level)",
+    "skill_id": "DA-03",
+    "skill": "Statistics Fundamentals",
+    "prerequisites": "None",
+    "why_it_matters": "Needed to interpret data correctly and avoid misleading conclusions in reports.",
+    "resource": "Khan Academy — 'Statistics and Probability' (free)",
+    "est_time": "2–3 weeks"
+  },
+  {
+    "role": "Data Analyst (Entry-Level)",
+    "skill_id": "DA-04",
+    "skill": "Data Cleaning & Python (pandas)",
+    "prerequisites": "DA-01",
+    "why_it_matters": "41–50% of postings mention Python; pandas cleans large datasets in seconds vs. hours in Excel.",
+    "resource": "Kaggle Learn — 'Pandas' micro-course (free)",
+    "est_time": "3 weeks"
+  },
+  {
+    "role": "Data Analyst (Entry-Level)",
+    "skill_id": "DA-05",
+    "skill": "Data Visualization (Power BI)",
+    "prerequisites": "DA-01, DA-02",
+    "why_it_matters": "Power BI appears in 43% of postings, far ahead of other BI tools — the most requested dashboarding tool.",
+    "resource": "Microsoft Learn — 'Power BI Fundamentals' (free)",
+    "est_time": "2–3 weeks"
+  },
+  {
+    "role": "Data Analyst (Entry-Level)",
+    "skill_id": "DA-06",
+    "skill": "Business Analysis & Storytelling",
+    "prerequisites": "DA-03",
+    "why_it_matters": "Employers explicitly want analysts who turn numbers into clear, actionable recommendations, not just charts.",
+    "resource": "Google Data Analytics Certificate — 'Data Analysis and Storytelling' module (Coursera)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Data Analyst (Entry-Level)",
+    "skill_id": "DA-07",
+    "skill": "data analysis Portfolio Project",
+    "prerequisites": "DA-04–DA-05",
+    "why_it_matters": "2–3 real, complete projects are what most hiring managers actually screen for from junior candidates.",
+    "resource": "Self-directed build (clean → analyze → dashboard a public dataset, e.g. Kaggle)",
+    "est_time": "2–3 weeks"
+  },
+  {
+    "role": "Data Analyst (Entry-Level)",
+    "skill_id": "DA-08",
+    "skill": "data analysis Portfolio Project",
+    "prerequisites": "DA-04, DA-05",
+    "why_it_matters": "2–3 real, complete projects are what most hiring managers actually screen for from junior candidates.",
+    "resource": "Self-directed build (clean → analyze → dashboard a public dataset, e.g. Kaggle)",
+    "est_time": "2–3 weeks"
+  }
+]

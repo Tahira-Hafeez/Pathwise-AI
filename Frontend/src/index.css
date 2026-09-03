@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root{
+  /* ===== EDIT COLORS HERE — this is the ONLY place you need to touch for a palette change ===== */
+  --bg:#0F1C2E;
+  --bg-2:#152538;
+  --surface:#E8DCC8;
+  --ink:#1C2333;
+  --complete:#5B8C5A;
+  --complete-glow:rgba(91,140,90,0.4);
+  --progress:#C98A3B;
+  --progress-glow:rgba(201,138,59,0.4);
+  --muted:#3C4C60;
+  --sub:#9AA3B5;
+  --font-d:'Space Grotesk', sans-serif;
+  --font-b:'Inter', sans-serif;
+}
+
+*{ box-sizing:border-box; margin:0; padding:0; }
+body{ background:var(--bg); color:var(--surface); font-family:var(--font-b); overflow-x:hidden; }
+h1,h2,h3{ font-family:var(--font-d); }
+section{ position:relative; padding:120px 8vw; }
+.eyebrow{ font-size:12px; letter-spacing:.18em; text-transform:uppercase; color:var(--progress); font-weight:600; margin-bottom:18px; }
+
+.section-head{ text-align:center; max-width:620px; margin:0 auto 60px; }
+.section-head h2{ font-size:clamp(28px,4vw,42px); }
+.section-head p{ margin-top:14px; color:var(--sub); font-size:16px; }
+
+.reveal{ opacity:0; transform:translateY(24px); transition:all .7s cubic-bezier(.2,.7,.2,1); }
+.reveal.in{ opacity:1; transform:translateY(0); }
+
+footer{ text-align:center; padding:50px; color:#5A6478; font-size:13px; }
+
+@media (max-width:900px){
+  section{ padding:80px 6vw; }
+}
