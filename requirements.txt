@@ -3,3 +3,8 @@ chromadb
 openpyxl
 python-dotenv
 google-generativeai
+uvicorn
+email-validator
+pymongo
+passlib
+PyJWT
