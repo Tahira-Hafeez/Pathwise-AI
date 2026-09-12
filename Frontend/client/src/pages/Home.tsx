@@ -40,9 +40,14 @@ const defaultUserProfile = {
 
 export default function Home() {
   const [navOpen, setNavOpen] = useState(false);
+  const [userName, setUserName] = useState<string | null>(null);
   const [roadmapData, setRoadmapData] = useState(roadmap);
   const [roadmapLoading, setRoadmapLoading] = useState(true);
 
+   useEffect(() => {
+    const name = localStorage.getItem("user_name");
+    setUserName(name);
+  }, []);
   useEffect(() => {
     let active = true;
 
@@ -92,7 +97,12 @@ export default function Home() {
           <a onClick={() => setNavOpen(false)} href="#how-it-works">How it works</a>
           <a onClick={() => setNavOpen(false)} href="#skill-gap">See a path</a>
           <a onClick={() => setNavOpen(false)} href="/compare">Compare Roles</a>
-          <a onClick={() => setNavOpen(false)} href="/auth">Sign In</a>
+          <a
+  onClick={() => setNavOpen(false)}
+  href={userName ? "/dashboard" : "/auth"}
+>
+  {userName ? userName : "Sign In"}
+</a>
           <button type="button" className="nav-cta" onClick={goToStart}>Find my path <ArrowRight size={14} /></button>
         </nav>
         <button className="menu-toggle" type="button" onClick={() => setNavOpen(!navOpen)} aria-label={navOpen ? "Close menu" : "Open menu"}>{navOpen ? <X /> : <Menu />}</button>

@@ -49,6 +49,8 @@ export default function Auth() {
         }
 
         result.access_token = loginResult.access_token;
+result.name = loginResult.name;
+result.email = loginResult.email;
       }
 
       if (!result.access_token) {
@@ -56,7 +58,10 @@ export default function Auth() {
       }
 
       localStorage.setItem("access_token", result.access_token);
-      navigate("/dashboard");
+localStorage.setItem("user_name", result.name);
+localStorage.setItem("user_email", result.email);
+
+navigate("/dashboard");
     } catch (submitError) {
       setError(submitError instanceof Error ? submitError.message : "Unable to complete authentication.");
     } finally {
