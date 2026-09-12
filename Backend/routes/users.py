@@ -12,7 +12,7 @@ def register(user: UserRegister):
     if users_collection.find_one({"email": user.email}):
         raise HTTPException(status_code=400, detail="Email already registered")
     hashed_pw = hash_password(user.password)
-    users_collection.insert_one({"email": user.email, "password": hashed_pw})
+    users_collection.insert_one({"name": user.name, "email": user.email, "password": hashed_pw})
     return {"message": "User registered successfully"}
 
 @router.post("/login")

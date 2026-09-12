@@ -3,7 +3,7 @@
 import chromadb
 from sentence_transformers import SentenceTransformer
 
-CHROMA_DIR = "../data/chroma_store"
+CHROMA_DIR = "data/chroma_store"
 COLLECTION_NAME = "skills"
 EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
