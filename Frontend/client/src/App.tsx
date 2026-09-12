@@ -6,6 +6,7 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Auth from "./pages/Auth";
 import Home from "./pages/Home";
+import CompareRoles from "./pages/CompareRoles";
 
 
 function Router() {
@@ -14,6 +15,7 @@ function Router() {
       <Route path="/" element={<Home />} />
       <Route path="/dashboard" element={<Home />} />
       <Route path="/auth" element={<Auth />} />
+      <Route path="/compare" element={<CompareRoles />} />
       <Route path="/404" element={<NotFound />} />
       <Route path="*" element={<NotFound />} />
     </Routes>

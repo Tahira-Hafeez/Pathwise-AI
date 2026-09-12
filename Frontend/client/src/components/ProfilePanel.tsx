@@ -6,7 +6,7 @@ import { ArrowRight, Check, Sparkles } from "lucide-react";
 import { useState } from "react";
 import profileCompass from "../assets/pathwise-profile-compass_33583083.webp";
 
-const skills = ["Excel", "Basic statistics", "Writing", "Figma", "Customer research", "Python"];
+export const profileSkills = ["Excel", "Basic statistics", "Writing", "Figma", "Customer research", "Python"];
 const roles = ["Data Analyst", "UX Designer", "Product Manager"];
 const modes = [
   { id: "new", eyebrow: "New Path", title: "I'm figuring it out" },
@@ -45,7 +45,7 @@ export default function ProfilePanel() {
             <p className="question-help">Pick the things you would feel comfortable using this week.</p>
           </div>
           <div className="skill-chip-list">
-            {skills.map((skill) => {
+            {profileSkills.map((skill) => {
               const chosen = selectedSkills.includes(skill);
               return (
                 <button className={`skill-choice ${chosen ? "chosen" : ""}`} onClick={() => toggleSkill(skill)} type="button" aria-pressed={chosen} key={skill}>

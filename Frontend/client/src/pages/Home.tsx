@@ -91,6 +91,7 @@ export default function Home() {
         <nav className={navOpen ? "nav-links open" : "nav-links"} aria-label="Main navigation">
           <a onClick={() => setNavOpen(false)} href="#how-it-works">How it works</a>
           <a onClick={() => setNavOpen(false)} href="#skill-gap">See a path</a>
+          <a onClick={() => setNavOpen(false)} href="/compare">Compare Roles</a>
           <a onClick={() => setNavOpen(false)} href="/auth">Sign In</a>
           <button type="button" className="nav-cta" onClick={goToStart}>Find my path <ArrowRight size={14} /></button>
         </nav>
