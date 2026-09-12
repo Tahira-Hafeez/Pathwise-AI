@@ -43,3 +43,14 @@ python generate.py     # test run: sample user -> roadmap
 - `.env` is gitignored — never commit API keys.
 - Next step: wrap `generate_roadmap()` in `generate.py` as a function Tahira's
   FastAPI backend can call directly.
+
+
+---
+
+## Growth Mode & Role Comparison (Mehroz's part)
+
+- Added mode-aware roadmap generation (new_path / career_switch / growth) in generate.py
+- Fixed retrieve_role_skills cross-role contamination bug once multiple roles exist in the KB
+- Wired in the milestone2 knowledge base (4 roles instead of 2) via data_prep.py
+- Added new POST /compare-roles endpoint to compare a user's skills against multiple target roles
+

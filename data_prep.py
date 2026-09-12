@@ -3,11 +3,10 @@
 import json
 import openpyxl
 
-SOURCE_FILE = "data/PathWise_AI_Knowledge_Base_milestone1.xlsx"
+SOURCE_FILE = "RAG/PathWise_AI_Knowledge_Base_milestone2.xlsx"
 OUTPUT_FILE = "data/skills.json"
 
-
-SKILL_SHEETS = ["AI Engineer", "Data Analyst"]
+SKILL_SHEETS = ["AI Engineer", "Data Analyst", "UX Designer", "Product Manager"]
 
 
 def load_skills():

@@ -160,5 +160,185 @@
     "why_it_matters": "2–3 real, complete projects are what most hiring managers actually screen for from junior candidates.",
     "resource": "Self-directed build (clean → analyze → dashboard a public dataset, e.g. Kaggle)",
     "est_time": "2–3 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-01",
+    "skill": "Design Fundamentals (color, typography, layout)",
+    "prerequisites": "None",
+    "why_it_matters": "Visual design fundamentals are a foundational recommendation; two collected postings should not be treated as evidence that every posting requires the same level.",
+    "resource": "Google UX Design Certificate — Course 1: 'Foundations of UX Design' (Coursera, free to audit)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-02",
+    "skill": "User Research Basics",
+    "prerequisites": "UX-01",
+    "why_it_matters": "User research is explicitly present in the collected senior posting; verify its importance for junior roles using a larger local sample.",
+    "resource": "Google UX Design Certificate — Course 2: 'Start the UX Design Process' (Coursera, free to audit)",
+    "est_time": "2-3 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-03",
+    "skill": "Wireframing & Low-Fidelity Prototyping",
+    "prerequisites": "UX-02",
+    "why_it_matters": "Wireframes and user flows appeared in the collected Red Star Technologies junior posting.",
+    "resource": "Google UX Design Certificate — Course 3: 'Build Wireframes and Low-Fidelity Prototypes' (Coursera, free to audit)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-04",
+    "skill": "Figma (UI design + prototyping)",
+    "prerequisites": "UX-03",
+    "why_it_matters": "Figma appeared in both collected UX postings.",
+    "resource": "Figma's own free 'Figma for Beginners' tutorial series (figma.com/resources, free)",
+    "est_time": "2-3 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-05",
+    "skill": "High-Fidelity UI Design",
+    "prerequisites": "UX-04",
+    "why_it_matters": "High-fidelity UI work is relevant to the collected UX examples; confirm with more postings before treating it as universal.",
+    "resource": "Google UX Design Certificate — Course 5: 'Create High-Fidelity Designs and Prototypes in Figma' (Coursera, free to audit)",
+    "est_time": "2-3 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-06",
+    "skill": "Responsive & Mobile Design",
+    "prerequisites": "UX-05",
+    "why_it_matters": "Responsive design appeared in the collected junior UX posting; broader local prevalence is not established.",
+    "resource": "Google UX Design Certificate — Course 6: 'Responsive Web Design in Adobe XD' (Coursera, free to audit)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-07",
+    "skill": "Usability Testing",
+    "prerequisites": "UX-04",
+    "why_it_matters": "This skill appeared in the collected senior UX posting; more postings are needed to estimate market prevalence.",
+    "resource": "Nielsen Norman Group — free articles on 'Usability Testing 101' (nngroup.com, free)",
+    "est_time": "1-2 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-08",
+    "skill": "Design Systems & Consistency",
+    "prerequisites": "UX-05",
+    "why_it_matters": "This skill appeared in the collected senior UX posting; more postings are needed to estimate market prevalence.",
+    "resource": "Figma's free 'Design Systems' tutorial (figma.com/resources, free)",
+    "est_time": "1-2 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-09",
+    "skill": "Product Analytics for UX (data-informed design)",
+    "prerequisites": "UX-06",
+    "why_it_matters": "This skill appeared in the collected senior UX posting; more postings are needed to estimate market prevalence.",
+    "resource": "Google Analytics Academy — 'Google Analytics for Beginners' (free, skills.google)",
+    "est_time": "1-2 weeks"
+  },
+  {
+    "role": "Target Role 3: UX Designer (Entry-Level)",
+    "skill_id": "UX-10",
+    "skill": "UX Portfolio (3 case studies)",
+    "prerequisites": "UX-07, UX-08",
+    "why_it_matters": "A portfolio was required or requested in the collected UX examples. Treat a portfolio as a strong recommendation, not a statistically proven universal requirement.",
+    "resource": "Self-directed build (redesign a real app/website + document the process)",
+    "est_time": "3-4 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-01",
+    "skill": "Product Management Fundamentals",
+    "prerequisites": "None",
+    "why_it_matters": "Product-management fundamentals provide a transferable foundation: product lifecycle, customer value, prioritization, and delivery.",
+    "resource": "Google Product Management Certificate — first course module (Coursera, free to audit)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-02",
+    "skill": "Customer Discovery & User Research",
+    "prerequisites": "PM-01",
+    "why_it_matters": "Customer discovery and user research help PMs understand problems and validate opportunities; depth varies by product and seniority.",
+    "resource": "Google UX Design Certificate — 'Conduct UX Research' module (Coursera, free to audit)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-03",
+    "skill": "Writing Specs & User Stories",
+    "prerequisites": "PM-01",
+    "why_it_matters": "Clear product requirements, user stories, and decision documents support alignment between business, design, and engineering.",
+    "resource": "Atlassian — free 'Agile Coach' guide on user stories (atlassian.com/agile, free)",
+    "est_time": "1-2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-04",
+    "skill": "Roadmapping & Prioritization",
+    "prerequisites": "PM-03",
+    "why_it_matters": "Roadmapping and prioritization help teams sequence work against customer value, risk, and business impact.",
+    "resource": "OpenClassrooms — 'Construisez votre roadmap produit' (free-access course)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-05",
+    "skill": "Agile/Scrum Basics",
+    "prerequisites": "PM-01",
+    "why_it_matters": "Agile/Scrum familiarity can help PMs collaborate with delivery teams, although methods differ across organizations.",
+    "resource": "Atlassian Agile Coach — free Scrum/Agile fundamentals (atlassian.com/agile, free)",
+    "est_time": "1-2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-06",
+    "skill": "Product Analytics & A/B Testing",
+    "prerequisites": "PM-02",
+    "why_it_matters": "Product analytics and experimentation support evidence-based decisions; the tools and methods vary by product.",
+    "resource": "Udacity — 'A/B Testing' course (free)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-07",
+    "skill": "Working with Engineering & Design",
+    "prerequisites": "PM-04, PM-05",
+    "why_it_matters": "Cross-functional collaboration with engineering, design, sales, and operations is a transferable PM competency.",
+    "resource": "Google Product Management Certificate — cross-functional collaboration module (Coursera, free to audit)",
+    "est_time": "2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-08",
+    "skill": "Stakeholder & Enterprise Communication",
+    "prerequisites": "PM-07",
+    "why_it_matters": "Stakeholder communication is important for aligning decisions and managing trade-offs; enterprise roles may require deeper client management.",
+    "resource": "LinkedIn Learning — 'Becoming a Product Manager' (free with 30-day trial)",
+    "est_time": "1-2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-09",
+    "skill": "AI/SaaS Product Awareness",
+    "prerequisites": "PM-06",
+    "why_it_matters": "AI and SaaS awareness can be valuable for technology-product roles, but it is not a universal requirement for every PM job.",
+    "resource": "Google — 'Generative AI Learning Path' (free, skills.google)",
+    "est_time": "1-2 weeks"
+  },
+  {
+    "role": "Target Role 4: Product Manager (Entry-Level / Early-Career)",
+    "skill_id": "PM-10",
+    "skill": "Portfolio / Case Studies (product decisions)",
+    "prerequisites": "PM-04, PM-08",
+    "why_it_matters": "Portfolio or case-study work is a recommended way for early-career PM candidates to demonstrate product thinking; it is not a universal hiring requirement.",
+    "resource": "Self-directed build (write 1-2 product case studies on an app you use daily)",
+    "est_time": "2-3 weeks"
   }
 ]
