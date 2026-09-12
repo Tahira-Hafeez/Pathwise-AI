@@ -1,13 +1,13 @@
-from fastapi import FastAPI
+﻿from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from routes import users, profile, roadmap
+from routes import users, profile, roadmap, compare
 
 app = FastAPI(title="PathWise AI Backend")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # tighten this later to just your frontend URL
+    allow_origins=["*"],
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -15,6 +15,7 @@ app.add_middleware(
 app.include_router(users.router, tags=["Users"])
 app.include_router(profile.router, tags=["Profile"])
 app.include_router(roadmap.router, tags=["Roadmap"])
+app.include_router(compare.router, tags=["Comparison"])
 
 @app.get("/")
 def root():

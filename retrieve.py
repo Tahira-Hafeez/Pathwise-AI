@@ -1,4 +1,4 @@
-
+﻿
 
 import chromadb
 from sentence_transformers import SentenceTransformer
@@ -13,7 +13,7 @@ def get_collection():
     return client.get_collection(COLLECTION_NAME)
 
 
-def retrieve_role_skills(target_role: str, top_k: int = 15):
+def retrieve_role_skills(target_role: str, top_k: int = 50):
     collection = get_collection()
     model = SentenceTransformer(EMBEDDING_MODEL)
 
@@ -27,7 +27,11 @@ def retrieve_role_skills(target_role: str, top_k: int = 15):
     skills = []
     for doc, meta in zip(results["documents"][0], results["metadatas"][0]):
         skills.append(meta)
-    return skills
+
+    target_lower = target_role.strip().lower()
+    filtered = [s for s in skills if target_lower in s["role"].lower()]
+
+    return filtered if filtered else skills
 
 
 def find_skill_gap(current_skills: list[str], target_role: str):
